@@ -1,10 +1,10 @@
-Sensory Conversion Framework
+The Product Description Catalyst
 
 Overview
 
-An ecommerce product description system that focuses on sensory experience, practical benefits, and emotional outcomes rather than generic feature lists.
+An ecommerce product description system designed to transform product features into sensory experiences and emotional outcomes.
 
-The framework helps transform products from objects into experiences.
+The framework helps products feel tangible, desirable, and relevant to everyday life.
 
 
 
@@ -32,7 +32,7 @@ Purchase Motivation
 
 Prompt Architecture
 
-Product Input
+Product
 ↓
 Feature Analysis
 ↓
@@ -40,7 +40,7 @@ Sensory Mapping
 ↓
 Benefit Expansion
 ↓
-Description Output
+Description Generation
 
 
 
@@ -48,43 +48,36 @@ Core Prompt
 
 Write a product description for:
 
-Product: [Product]
+[Product]
 
 Requirements:
 
-- Highlight tactile or sensory experiences
-- Avoid generic marketing language
-- Focus on practical benefits
+- Focus on tactile and sensory experience
+- Highlight practical benefits
 - Connect features to emotional outcomes
-- Write naturally
-
-Structure:
-
-1. Sensory Opening
-2. Product Experience
-3. Benefit Expansion
-4. Emotional Outcome
+- Avoid generic marketing language
+- Write naturally and clearly
 
 
 
 Example Output
 
-Input
+Before
 
-Leather Wallet
+This leather wallet is high-quality and durable.
 
-Output
+After
 
-Slim enough to disappear into your front pocket while keeping everything organized and within reach throughout the day.
+Slim enough to disappear into your front pocket, yet structured enough to hold your essentials without the awkward pocket bulge.
 
 
 
 Evaluation Criteria
 
 - Sensory Detail
+- Product Appeal
 - Clarity
 - Persuasiveness
-- Practical Value
 - Purchase Intent
 
 
@@ -99,13 +92,29 @@ Gemini 2.5 Pro: 8.9/10
 
 
 
+Model Notes
+
+GPT-4.1
+
+Strong practical benefit positioning.
+
+Claude Opus
+
+Most natural sensory descriptions.
+
+Gemini 2.5 Pro
+
+Creative product storytelling.
+
+
+
 Research Notes
 
 Based on:
 
-- Consumer Behavior Research
 - Sensory Marketing
-- Ecommerce Conversion Principles
+- Ecommerce Conversion Optimization
+- Consumer Behavior
 - Product Positioning Psychology
 
 
