@@ -1,10 +1,10 @@
-Objection Reversal Framework
+The Retargeting Hook
 
 Overview
 
-A retargeting copy system designed to recover abandoned prospects by addressing hidden objections directly rather than relying on discounts or urgency tactics.
+A retargeting copy system designed to recover abandoned prospects through honesty, empathy, and objection handling.
 
-The framework assumes hesitation is usually caused by uncertainty, not forgetfulness.
+The framework assumes hesitation is usually caused by uncertainty rather than forgetfulness.
 
 
 
@@ -14,7 +14,7 @@ Objection
 
 ↓
 
-Acknowledge
+Acknowledgment
 
 ↓
 
@@ -22,7 +22,7 @@ Reframe
 
 ↓
 
-Reduce Risk
+Risk Reduction
 
 ↓
 
@@ -46,11 +46,9 @@ CTA
 
 Core Prompt
 
-Create retargeting ad copy for:
+Write retargeting ad copy for:
 
-Product: [Product]
-
-Audience: [Audience]
+[Product]
 
 Requirements:
 
@@ -58,26 +56,20 @@ Requirements:
 - Address it directly
 - Use honest language
 - Avoid fake urgency
-- Avoid aggressive sales tactics
-
-Structure:
-
-1. Objection
-2. Reframe
-3. Risk Reduction
-4. CTA
+- Reduce perceived risk
+- End with a simple call to action
 
 
 
 Example Output
 
-We get it.
+Before
 
-Switching tools can feel risky when your current system already works.
+You forgot something!
 
-That's why you can test everything before making a commitment.
+After
 
-See if it's a better fit for your workflow.
+We get it. Investing in new tools is risky.
 
 
 
@@ -85,8 +77,8 @@ Evaluation Criteria
 
 - Trust Building
 - Objection Handling
-- Clarity
 - Emotional Resonance
+- Clarity
 - Conversion Potential
 
 
@@ -101,14 +93,30 @@ Gemini 2.5 Pro: 8.7/10
 
 
 
+Model Notes
+
+GPT-4.1
+
+Strong objection identification.
+
+Claude Opus
+
+Most empathetic and human tone.
+
+Gemini 2.5 Pro
+
+Good alternative messaging angles.
+
+
+
 Research Notes
 
-Based on:
+Inspired by:
 
 - Loss Aversion
 - Risk Reversal Marketing
+- Conversion Optimization
 - Consumer Decision Psychology
-- Conversion Optimization Research
 
 
 
