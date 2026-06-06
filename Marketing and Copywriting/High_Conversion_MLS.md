@@ -1,10 +1,10 @@
-Lifestyle Narrative Framework
+The High-Conversion MLS
 
 Overview
 
-A real estate copywriting system designed to transform property features into lifestyle-driven narratives that help buyers imagine living in the space.
+A real estate copywriting system designed to transform property listings into lifestyle-driven narratives that help buyers imagine themselves living in the space.
 
-Instead of listing features, the framework focuses on experiences, atmosphere, and emotional connection.
+Rather than focusing solely on features, the framework emphasizes atmosphere, daily experiences, and emotional connection.
 
 
 
@@ -14,7 +14,7 @@ Sensory Experience
 
 ↓
 
-Daily Lifestyle
+Lifestyle Visualization
 
 ↓
 
@@ -26,7 +26,7 @@ Property Features
 
 ↓
 
-Buyer Visualization
+Buyer Connection
 
 
 
@@ -34,56 +34,50 @@ Prompt Architecture
 
 Property Details
 ↓
-Lifestyle Analysis
+Sensory Analysis
 ↓
-Sensory Opening
+Lifestyle Positioning
 ↓
-Emotional Positioning
+Feature Integration
 ↓
-Property Description
+MLS Description
+
 
 
 Core Prompt
 
-Write an MLS property description for:
+Write an MLS description for:
 
-Property Details: [Property Details]
+[Property Details]
 
 Requirements:
 
-- Open with a sensory experience
+- Begin with a sensory experience
 - Focus on lifestyle before features
-- Avoid clichés such as "stunning", "cozy", and "must-see"
-- Create visual imagery
-- Keep the tone natural and aspirational
-
-Structure:
-
-1. Sensory Opening
-2. Lifestyle Narrative
-3. Key Features
-4. Closing Impression
+- Avoid words such as "cozy", "stunning", and "must-see"
+- Use vivid but natural language
+- Help buyers visualize daily life in the property
 
 
 
 Example Output
 
-Input
+Before
 
-3 Bed, 2 Bath Home with Large Backyard
+Stunning 3-bed 2-bath house.
 
-Output
+After
 
-Morning sunlight pours across the hardwood floors as you step into a space designed for slow weekends and busy family evenings alike.
+Step inside and the first thing you notice is the morning light hitting the hardwood floors.
 
 
 
 Evaluation Criteria
 
-- Emotional Appeal
-- Visualization
+- Lifestyle Appeal
+- Visualization Quality
+- Emotional Connection
 - Authenticity
-- Lifestyle Positioning
 - Buyer Interest
 
 
@@ -98,14 +92,30 @@ Gemini 2.5 Pro: 8.8/10
 
 
 
+Model Notes
+
+GPT-4.1
+
+Strong feature-to-benefit conversion.
+
+Claude Opus
+
+Most immersive and descriptive lifestyle narratives.
+
+Gemini 2.5 Pro
+
+Creative descriptions with broader imagery.
+
+
+
 Research Notes
 
 Influenced by:
 
+- Real Estate Marketing
 - Narrative Transportation Theory
-- Consumer Psychology
-- Luxury Real Estate Marketing
 - Lifestyle Branding
+- Consumer Psychology
 
 
 
