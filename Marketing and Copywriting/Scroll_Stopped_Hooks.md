@@ -1,114 +1,121 @@
-Scroll Stopper Hooks
+The Scroll-Stopper
 
 Overview
 
-A prompt system designed to generate pattern-interrupt social media hooks that capture attention within the first few seconds and increase engagement across short-form content platforms.
+A social media hook generation system designed to capture attention within the first few seconds of exposure.
+
+The framework focuses on breaking audience expectations, creating curiosity, and increasing engagement without relying on clickbait.
+
 
 
 Framework
 
-P.I.R. Framework
+Common Belief
+
+↓
 
 Pattern Interrupt
 
-Break an expected assumption or common belief.
+↓
+
+Unexpected Insight
 
 ↓
 
-Insight
-
-Reveal a surprising observation or hidden truth.
+Curiosity Trigger
 
 ↓
 
-Reason to Continue
+Hook
 
-Create curiosity that encourages the reader to keep reading.
 
 
 Prompt Architecture
 
+Product
+↓
 Audience Analysis
 ↓
-Common Industry Belief
+Industry Assumption
 ↓
 Pattern Interrupt
 ↓
-Curiosity Trigger
-↓
-Hook Output
+Hook Generation
+
 
 
 Core Prompt
 
-Analyze the product: [Product]
+Analyze:
 
-Target audience: [Audience]
+Product: [Product]
 
-Identify one commonly accepted belief within the audience.
+Audience: [Audience]
 
-Create a one-sentence social media hook that challenges that belief using a pattern interrupt.
+Write a one-sentence social media hook.
 
 Requirements:
 
+- Challenge a common belief
+- Use a pattern interrupt or counter-intuitive idea
 - Avoid generic questions
 - Avoid clickbait
-- Use specific language
-- Create curiosity without withholding essential context
+- Create curiosity naturally
 - Keep under 20 words
+
 
 
 Example Output
 
-Input
+Before
 
-Product:
-Facebook Ads Optimization Service
+Are you tired of losing money on Facebook ads? Try our new tool today.
 
-Audience:
-Small Business Owners
+After
 
-Output
+Most marketers waste 40% of their ad budget on the exact same setting. Here's why turning it off wins.
 
-Most small businesses don't lose money on bad ads. They lose it before the ad ever launches.
 
 
 Evaluation Criteria
 
-Metric| Goal
-Curiosity| High
-Clarity| High
-Specificity| High
-Clickbait Risk| Low
-Scroll-Stopping Ability| High
+- Scroll-Stopping Ability
+- Curiosity
+- Specificity
+- Clarity
+- Engagement Potential
+
 
 
 Benchmark Results
 
-Model| Score
-GPT-4.1| 9.2/10
-Claude Opus| 9.4/10
-Gemini 2.5 Pro| 8.7/10
+GPT-4.1: 9.2/10
+
+Claude Opus: 9.4/10
+
+Gemini 2.5 Pro: 8.7/10
+
 
 
 Model Notes
 
 GPT-4.1
 
-Produces stronger specificity and business-focused hooks.
+Strong specificity and business-focused hooks.
 
 Claude Opus
 
-Produces more natural and emotionally nuanced hooks.
+More natural and emotionally engaging.
 
 Gemini 2.5 Pro
 
-Produces broader variations but sometimes becomes generic.
+Generates wider variation but can become generic.
+
 
 
 Research Notes
 
-The framework is influenced by:
+Based on:
 
 - Pattern Interruption Theory
 - Curiosity Gap Psychology
@@ -116,18 +123,7 @@ The framework is influenced by:
 - Direct Response Copywriting
 
 
-Changelog
 
-Version 1.2
+Release: v1.0
 
-- Reduced generic phrasing
-- Added specificity requirements
-- Improved curiosity generation
-
-Version 1.0
-
-Initial release
-
-
-Release: v1.2
 Status: Active
